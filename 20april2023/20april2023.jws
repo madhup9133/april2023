@@ -28,6 +28,7 @@
    </list>
    <list n="listOfChildren">
       <hash><url n="URL" path="additionsync/additionsync.jpr"/></hash>
+      <hash><url n="URL" path="cardvalidationsystem/cardvalidationsystem.jpr"/></hash>
       <hash><url n="URL" path="helloworld1/helloworld1.jpr"/></hash>
    </list>
 </jws:workspace>
