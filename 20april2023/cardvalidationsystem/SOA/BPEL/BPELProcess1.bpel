@@ -28,7 +28,8 @@
          xmlns:ids="http://xmlns.oracle.com/bpel/services/IdentityService/xpath"
          xmlns:ldap="http://schemas.oracle.com/xpath/extension/ldap">
 
-    <import ui:processWSDL="true" namespace="http://xmlns.oracle.com/20april2023/cardvalidationsystem/BPELProcess1" location="../WSDLs/BPELProcess1.wsdl" importType="http://schemas.xmlsoap.org/wsdl/"/>
+    <import ui:processWSDL="true" namespace="http://xmlns.oracle.com/20april2023/cardvalidationsystem/BPELProcess1"
+            location="oramds:/apps/20april2023/cardvalidationsystem/WSDLs/BPELProcess1.wsdl" importType="http://schemas.xmlsoap.org/wsdl/"/>
     <!-- 
       ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         PARTNERLINKS                                                      
